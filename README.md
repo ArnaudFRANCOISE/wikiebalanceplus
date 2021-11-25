@@ -11,6 +11,23 @@ Le wiki de EBlancePlus repertorie tous les tutoriels necessaire à la compréhen
 - Dans votre navigateur allez à l'adresse: http://localhost/mediawiki-1.37.0/index.php
 - Parcourez le wiki !
 
+
+## Deploiement
+
+- cloner le repo 
+```git clone https://github.com/YOURUSERNAME/mediawiki```
+- Installer [composer](https://getcomposer.org/download/)
+- Dans le repertoire local executer : ```composer update```
+- Créer une base de donnée et modifier les paramètre dans le ```LocalSettings.php```:
+  ```$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+
+  $wgDBtype = "mysql";
+  $wgDBserver = $url["host"];
+  $wgDBname = substr($url["path"], 1);
+  $wgDBuser = $url["user"];
+  $wgDBpassword = $url["pass"];```
+
+
 ## License
 
 Junia
