@@ -18,7 +18,7 @@ Le wiki de EBlancePlus repertorie tous les tutoriels necessaire à la compréhen
 ```git clone https://github.com/YOURUSERNAME/mediawiki```
 - Installer [composer](https://getcomposer.org/download/)
 - Dans le repertoire local executer : ```composer update```
-- Créer une base de donnée et modifier les paramètre dans le ```LocalSettings.php```:
+- Créer une base de donnée et modifier les paramètre ```## Database settings``` dans le ```LocalSettings.php```:
   ```
     $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
     $wgDBtype = "mysql";
