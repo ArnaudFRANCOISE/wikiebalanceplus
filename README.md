@@ -28,8 +28,8 @@ Le wiki de EBlancePlus repertorie tous les tutoriels necessaire à la compréhen
     $wgDBpassword = $url["pass"];
     ```
 - Déplacer la $wgSecretKey et la $wgUpgradeKeydans une ENV variable:
-    ```$wgSecretKey = getenv("SECRET_KEY");```
-    ```$wgUpgradeKey = getenv("UPGRADE_KEY");```
+    ```$wgSecretKey = getenv("SECRET_KEY");
+       $wgUpgradeKey = getenv("UPGRADE_KEY");```
 
 - Push le projet sur l'hebergeur
 
