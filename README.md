@@ -19,13 +19,18 @@ Le wiki de EBlancePlus repertorie tous les tutoriels necessaire à la compréhen
 - Installer [composer](https://getcomposer.org/download/)
 - Dans le repertoire local executer : ```composer update```
 - Créer une base de donnée et modifier les paramètre dans le ```LocalSettings.php```:
-  ```$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+  ```
+    $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+    $wgDBtype = "mysql";
+    $wgDBserver = $url["host"];
+    $wgDBname = substr($url["path"], 1);
+    $wgDBuser = $url["user"];
+    $wgDBpassword = $url["pass"];
+    ```
+- Déplacer la $wgSecretKey dans une ENV variable:
+    ```$wgSecretKey = getenv("SECRET_KEY");```
 
-  $wgDBtype = "mysql";
-  $wgDBserver = $url["host"];
-  $wgDBname = substr($url["path"], 1);
-  $wgDBuser = $url["user"];
-  $wgDBpassword = $url["pass"];```
+- Push le projet sur l'hebergeur
 
 
 ## License
