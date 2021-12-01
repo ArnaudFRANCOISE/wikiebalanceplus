@@ -2,14 +2,17 @@
 ## _Description_
 Le wiki de EBlancePlus repertorie tous les tutoriels necessaire à la compréhension du projet. De plus il contient la définition de certaines notions techniques
 
-## Installation
+## Installation  en local
 
 - Installer un serveur local comme [wampserver](https://www.wampserver.com/en/download-wampserver-64bits/)
 - Cloner ou Télécharger le repo
 - Placer le fichier ```mediawiki-1.37.0``` dans ```C:\wamp64\www\```
 - Executer **wampserver.exe**
+- Dans votre navigateur allez à l'adresse: http://localhost/phpmyadmin/index.php
+- créez une nouvelle table ```my_wiki``` puis importer le fichier ```my_wiki.sql``` du repo (si votre root necessite un mot de passe, vous devrez alors l'indiquer dans le ```LocalSettings.php``` (cf. partie deploiement plus bas))
 - Dans votre navigateur allez à l'adresse: http://localhost/mediawiki-1.37.0/index.php
 - Parcourez le wiki !
+
 
 
 ## Deploiement
@@ -34,7 +37,7 @@ Le wiki de EBlancePlus repertorie tous les tutoriels necessaire à la compréhen
      ```
 
 - Push le projet sur l'hebergeur
-
+## Cloner le repo
 
 ## License
 
