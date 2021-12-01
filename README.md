@@ -37,7 +37,7 @@ Le wiki de EBlancePlus repertorie tous les tutoriels necessaire à la compréhen
      ```
 
 - Push le projet sur l'hebergeur
-## Cloner le repo
+
 
 ## License
 
