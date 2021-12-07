@@ -141,4 +141,9 @@ wfLoadSkin( 'Vector' );
 
 # End of automatically generated settings.
 # Add more configuration options below.
-
+wfLoadExtension( 'EmbedVideo' );
+#require_once("$IP/extensions/EmbedVideo/EmbedVideo.php");
+$wgMaxUploadSize = 200000000;	
+#wfLoadExtension( 'PdfBook' );
+#wfLoadExtension( 'PDFEmbed' );
+#$wgGroupPermissions['*']['embed_pdf'] = true;
