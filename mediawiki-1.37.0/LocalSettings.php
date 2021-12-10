@@ -143,7 +143,9 @@ wfLoadSkin( 'Vector' );
 # Add more configuration options below.
 wfLoadExtension( 'EmbedVideo' );
 #require_once("$IP/extensions/EmbedVideo/EmbedVideo.php");
-$wgMaxUploadSize = 200000000;	
+$wgMaxUploadSize = 200000000;
+wfLoadExtension( 'JavascriptSlideshow' );	
+$wgHtml5= true;
 #wfLoadExtension( 'PdfBook' );
 #wfLoadExtension( 'PDFEmbed' );
 #$wgGroupPermissions['*']['embed_pdf'] = true;
