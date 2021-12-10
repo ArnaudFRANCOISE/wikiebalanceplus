@@ -20,6 +20,7 @@ Le wiki est consultable publiquement, cependant uniquement les éditeurs connect
 Pour ce faire, il faut vous procurer les identifiants au près de votre manager et cliquer sur connecter. 
 ![alt text](https://github.com/ArnaudFRANCOISE/wikiebalanceplus/blob/233a8391d5c83082de05dcbdb20fd6a0318b7437/tutowiki/screen_logout_edit.png)
  Ceci étant fait vous verrez alors une option modifier qui va apparaître. 
+ ![alt text](https://github.com/ArnaudFRANCOISE/wikiebalanceplus/blob/1bb5c491651f362a9c9968317f6b8711a1cd8578/tutowiki/sign_in_edit.png)
  Pour créer une nouvelle page il suffit tout simplement de la rechercher puis mediawiki vous proposera de l'éditer.
 
 ## Deploiement
