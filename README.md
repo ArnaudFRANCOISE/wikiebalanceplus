@@ -1,3 +1,4 @@
+
 # Wiki de EBalance Plus
 ## _Description_
 Le wiki de EBlancePlus repertorie tous les tutoriels necessaire à la compréhension du projet. De plus il contient la définition de certaines notions techniques
@@ -14,6 +15,12 @@ Le wiki de EBlancePlus repertorie tous les tutoriels necessaire à la compréhen
 - Parcourez le wiki !
 
 
+## Utilisation
+Le wiki est consultable publiquement, cependant uniquement les éditeurs connecter pourront modifier les pages.
+Pour ce faire, il faut vous procurer les identifiants au près de votre manager et cliquer sur connecter. 
+![alt text](https://github.com/ArnaudFRANCOISE/StackOverflow_tags_prediction/blob/fea39a8f4c38a7e9539591b9d3c7a66f1c254376/RNN_model/Accuracy.png?raw=true)
+ Ceci étant fait vous verrez alors une option modifier qui va apparaître. 
+ Pour créer une nouvelle page il suffit tout simplement de la rechercher puis mediawiki vous proposera de l'éditer.
 
 ## Deploiement
 
@@ -42,3 +49,4 @@ Le wiki de EBlancePlus repertorie tous les tutoriels necessaire à la compréhen
 ## License
 
 Junia
+
