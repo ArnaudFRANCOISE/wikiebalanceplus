@@ -22,6 +22,7 @@ Pour ce faire, il faut vous procurer les identifiants au près de votre manager 
  Ceci étant fait vous verrez alors une option modifier qui va apparaître. 
  ![alt text](https://github.com/ArnaudFRANCOISE/wikiebalanceplus/blob/1bb5c491651f362a9c9968317f6b8711a1cd8578/tutowiki/sign_in_edit.png)
  Pour créer une nouvelle page il suffit tout simplement de la rechercher puis mediawiki vous proposera de l'éditer.
+ ![alt text](https://github.com/ArnaudFRANCOISE/wikiebalanceplus/blob/6c65132efa839ce5190a3f2921f673030ba0be79/tutowiki/newpage.PNG)
 
 ## Deploiement
 
