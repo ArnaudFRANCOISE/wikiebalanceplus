@@ -18,9 +18,11 @@ Le wiki de EBlancePlus repertorie tous les tutoriels necessaire à la compréhen
 ## Utilisation
 Le wiki est consultable publiquement, cependant uniquement les éditeurs connecter pourront modifier les pages.
 Pour ce faire, il faut vous procurer les identifiants au près de votre manager et cliquer sur connecter. 
-![alt text](https://github.com/ArnaudFRANCOISE/StackOverflow_tags_prediction/blob/fea39a8f4c38a7e9539591b9d3c7a66f1c254376/RNN_model/Accuracy.png?raw=true)
+![alt text](https://github.com/ArnaudFRANCOISE/wikiebalanceplus/blob/233a8391d5c83082de05dcbdb20fd6a0318b7437/tutowiki/screen_logout_edit.png)
  Ceci étant fait vous verrez alors une option modifier qui va apparaître. 
+ ![alt text](https://github.com/ArnaudFRANCOISE/wikiebalanceplus/blob/1bb5c491651f362a9c9968317f6b8711a1cd8578/tutowiki/sign_in_edit.png)
  Pour créer une nouvelle page il suffit tout simplement de la rechercher puis mediawiki vous proposera de l'éditer.
+ ![alt text](https://github.com/ArnaudFRANCOISE/wikiebalanceplus/blob/6c65132efa839ce5190a3f2921f673030ba0be79/tutowiki/newpage.PNG)
 
 ## Deploiement
 
